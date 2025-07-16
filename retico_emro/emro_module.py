@@ -20,7 +20,7 @@ from retico_core.text import TextIU, SpeechRecognitionIU
 
 emro_device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-model_name_or_path = "/Users/pang/Downloads/retico-assignment/emro"
+model_name_or_path = "bsu-slim/emro-misty"
 emro_tokenizer = AutoTokenizer.from_pretrained(model_name_or_path)
 emro_model = AutoModelForSequenceClassification.from_pretrained(model_name_or_path)
 emro_model.to(emro_device).eval()         
