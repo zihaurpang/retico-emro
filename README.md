@@ -56,6 +56,12 @@ The model provides probabilities across these emotional groups:
 * **joy\_hope**
 * **understanding\_gratitude\_relief**
 
+Output of model will be in sequence like:
+
+```
+{'anger_frustration': 0.1575, 'confusion_sorrow_boredom': 0.2368, 'disgust_surprise_alarm_fear': 0.1471, 'interest_desire': 0.1824, 'joy_hope': 0.1323, 'understanding_gratitude_relief': 0.1439}
+```
+
 ---
 
 ## 🔗 Dependencies
